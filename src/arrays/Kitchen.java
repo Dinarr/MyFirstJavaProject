@@ -13,6 +13,7 @@ public class Kitchen {
             		System.out.println(kitchenItems[i]);
             	}
             }
+           System.out.println();
             
 	    }
 	
