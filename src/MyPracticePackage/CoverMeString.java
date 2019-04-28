@@ -1,4 +1,4 @@
-package MyPracticePackage;
+ package MyPracticePackage;
 
 public class CoverMeString {
 
