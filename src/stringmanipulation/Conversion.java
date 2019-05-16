@@ -1,4 +1,4 @@
-package stringmanupulation;
+package stringmanipulation;
 
 public class Conversion {
 

@@ -1,30 +1,19 @@
 package MyPracticePackage;
 
+import java.util.ArrayList;
+
 public class AddArray {
 
-	public static void main(String[] args) {
-		
-		
-	}
-	int size = 0;    
-    int[] origArray = new int[size+1]; 
 
-	public static void add_n_r(int []r, int n){
-		int size = 0;    
-	    int[] origArray = new int[size+1]; 
-	    int[] tempArray = new int[size+1];    
-	    System.arraycopy(origArray, 0, tempArray, 0, size);
-	    origArray = tempArray;
-	    size++;         
+
+	public String printList(ArrayList<ArrayList<String>> nestedList) {
+		
+		ArrayList<String> list = new ArrayList<>();
+		nestedList.add(list);
+		
+		String var = nestedList.get(0).get(0);
+		return var;
+
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 }
